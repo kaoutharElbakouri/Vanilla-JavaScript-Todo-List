@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="toDoList">
+       <h1>Kaouthar's To-do List</h1>
+        <div>
+         <input type="date" id="start" value="yyyy-mm-dd">
+         <p id="task"></p>
+         <input id="newTodo" type='text' placeholder='Enter new todo'/>
+         <button onclick="addItem()">AddToList</button>
+         <button onclick="deleteAll()">deleteAll</button>
+        </div>
+        <ul class="item" id="item"></ul>
+   </div>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
