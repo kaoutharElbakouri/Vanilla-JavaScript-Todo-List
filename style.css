@@ -1,0 +1,67 @@
+ body{
+  color: midnigntBlue;
+  background-color:steelBlue;
+ }
+ #toDoList{
+  width: 400px;
+  background-color: white;
+  height:auto;
+  text-align:center;
+  margin-left:33%;
+ }
+
+ #newTodo{
+  height:24px;
+  font-family: 'Athiti', sans-serif;
+  border-style: solid;
+  border-color: black;
+ }
+ button{
+  background-color:peru;
+  font-weight: bold;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-family: 'Athiti', sans-serif;
+ }
+ button:hover{
+  background-color:#B09400;
+ }
+ #task{
+   border-style: solid;
+   border-color: black;
+   background-color:peru;
+   font-weight: bold;
+   flot:right;
+ }
+ ul{
+  justify-content: center;
+  align-items: center;
+  width:400px;
+  height:100%;
+  margin:10px;
+  padding:0;
+ }
+ ul li{
+  width:300px;
+  background-color:#2A2A2A;
+  color:white;
+  margin-left:30px;
+  border-bottom: 3px solid black;
+  align-items:center;
+  justify-content: flex-end;
+
+ }
+ li p{
+  width:70%;
+  padding:10px;
+ text-align: justify;
+  word-wrap:break-word;
+ }
+ li button{
+    width:70px;
+    height:50px;
+    border:3px solid #2A2A2A;
+ }
